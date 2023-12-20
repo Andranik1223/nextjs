@@ -1,2 +1,52 @@
-.container {
+.info {
+    flex-direction: column;
+    column-gap: 30px;
+}
+
+.top {
+    display: flex;
+}
+
+.title {
+    font-size: 40px;
+    width: 600px;
+}
+
+.desc {
+    font-size: 18px;
+    font-weight: 300;
+    width: 650px;
+    margin-top: 40px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.avatar {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.imageContainer {
+    flex: 1;
+    height: 300px;
+    position: relative;
+}
+
+.image {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.content {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 300px;
+    color: #999;
+    text-align: justify;
 }
